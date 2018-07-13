@@ -5,15 +5,13 @@
 class Floor;
 
 class TextDisplay{
-friend class Floor;
-	char floor[25][79];
-      public:	
-	TextDisplay(); // constructor
-	~TextDisplay(); // dtor
-	// prints the floor
-	void print();
-	// resets the floor
-	void reset();
+    friend class Floor;
+    char floor[25][79];
+    public:	
+    TextDisplay(); 
+    ~TextDisplay();
+    void print();
+    void reset();
 };
 
 #endif

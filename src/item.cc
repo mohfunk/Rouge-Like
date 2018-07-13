@@ -11,25 +11,25 @@ Item::~Item(){}
 
 // getRow
 int Item::getRow(){
-	return row;
+    return row;
 }
 
 
 
 // getCol
 int Item::getCol(){
-	return col;
+    return col;
 }
 
 
 // setRow
 void Item::setRow(int r){
-	row = r;
+    row = r;
 }
 
 
 
 // setCol       
 void Item::setCol(int c){
-	col = c;
+    col = c;
 }
