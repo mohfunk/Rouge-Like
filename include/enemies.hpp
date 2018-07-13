@@ -1,7 +1,7 @@
-#ifndef ENEMIES_H
-#define ENEMIES_H
-#include "characters.h"
-#include "players.h"
+#ifndef ENEMIES_HPP
+#define ENEMIES_HPP
+#include "characters.hpp"
+#include "players.hpp"
 #include <string>
 class Enemy: public Character{
 	bool hasMoved;	// a boolean to help us in the EnemyBeh method of floor.

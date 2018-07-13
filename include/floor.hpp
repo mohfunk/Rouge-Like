@@ -1,14 +1,14 @@
-#ifndef FLOOR_H
-#define FLOOR_H
-#include "characters.h"
-#include "players.h"
+#ifndef FLOOR_HPP
+#define FLOOR_HPP
+#include "characters.hpp"
+#include "players.hpp"
 #include <string>
-#include "textdisplay.h"
-#include "game.h"
-#include "potion.h"
-#include "potionstrategy.h"
-#include "gold.h"
-#include "enemies.h"
+#include "textdisplay.hpp"
+#include "game.hpp"
+#include "potion.hpp"
+#include "potionstrategy.hpp"
+#include "gold.hpp"
+#include "enemies.hpp"
 class Floor{
 	Player *player;		// pointer to a player object
 	std::string action;	// action to be printed

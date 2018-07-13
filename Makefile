@@ -1,11 +1,15 @@
 CXX = g++
 CXXFLAGS = -Wall -MMD -g
-EXEC = cc3k
-OBJECTS = main.o players.o characters.o controller.o floor.o textdisplay.o game.o gold.o potion.o potionstrategy.o item.o enemies.o
-DEPENDS = ${OBJECTS:.o=.d}
+SRC_DIR = src
+OBJ_DIR = src
+
+SRC = $(wildcard $(SRC_DIR)/*.cc)
+OBJ = $(SRC:$(SRC_DIR)/%.cc=$(OBJ_DIR)/%.o)
+EXEC = rl-game
+DEPENDS = ${OBJ:.o=.d}
 
 ${EXEC}: ${OBJECTS}
-	${CXX} ${CXXFLAGS} ${OBJECTS} -o ${EXEC}
+	${CXX} ${CXXFLAGS} ${OBJ} -o ${EXEC}
 
 -include ${DEPENDS}
 

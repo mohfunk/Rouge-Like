@@ -1,8 +1,8 @@
-#include"controller.h"
-#include "game.h"
-#include"players.h"
-#include"characters.h"
-#include"floor.h"
+#include"../include/controller.hpp"
+#include"../include/game.hpp"
+#include"../include/players.hpp"
+#include"../include/characters.hpp"
+#include"../include/floor.hpp"
 #include<iostream>
 #include<string>
 using namespace std;

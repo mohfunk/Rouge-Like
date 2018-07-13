@@ -1,8 +1,8 @@
-#ifndef GAME_H
-#define GAME_H
-#include "players.h"
-#include "enemies.h"
-#include "characters.h"
+#ifndef GAME_HPP
+#define GAME_HPP
+#include "players.hpp"
+#include "enemies.hpp"
+#include "characters.hpp"
 
 class Game{
       public:

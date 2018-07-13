@@ -1,5 +1,5 @@
-#ifndef TEXTDISPLAY_H
-#define TEXTDISPLAY_H
+#ifndef TEXTDISPLAY_HPP
+#define TEXTDISPLAY_HPP
 #include<string>
 
 class Floor;

@@ -1,9 +1,9 @@
-#ifndef POTION_H
-#define POTION_H
+#ifndef POTION_HPP
+#define POTION_HPP
 #include<string>
-#include"item.h"
-#include"potionstrategy.h"
-#include"players.h"
+#include"item.hpp"
+#include"potionstrategy.hpp"
+#include"players.hpp"
 
 class Potion: public Item{
 	bool view;  		// is it visible to the player?

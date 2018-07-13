@@ -1,6 +1,6 @@
-#ifndef POTIONSTRATEGY_H
-#define POTIONSTRATEGY_H
-#include"players.h"
+#ifndef POTIONSTRATEGY_HPP
+#define POTIONSTRATEGY_HPP
+#include"players.hpp"
 #include<string>
 
 class PotionStrategy{

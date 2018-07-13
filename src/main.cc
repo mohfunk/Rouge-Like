@@ -1,7 +1,7 @@
-#include "floor.h"
-#include "characters.h"
-#include "players.h"
-#include "controller.h"
+#include "../include/floor.hpp"
+#include "../include/characters.hpp"
+#include "../include/players.hpp"
+#include "../include/controller.hpp"
 #include <iostream>
 using namespace std;
 

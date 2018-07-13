@@ -1,6 +1,6 @@
-#ifndef GOLD_H
-#define GOLD_H
-#include"item.h"
+#ifndef GOLD_HPP
+#define GOLD_HPP
+#include"item.hpp"
 #include<string>
 
 class Gold: public Item{

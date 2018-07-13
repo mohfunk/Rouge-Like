@@ -1,8 +1,8 @@
-#ifndef CONTROLLER_H
-#define CONTROLLER_H
-#include"players.h"
-#include"floor.h"
-#include"game.h"
+#ifndef CONTROLLER_HPP
+#define CONTROLLER_HPP
+#include"players.hpp"
+#include"floor.hpp"
+#include"game.hpp"
 #include<string>
 class Controller { 
 	Game *game;		// a pointer to a game object

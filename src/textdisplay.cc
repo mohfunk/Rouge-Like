@@ -1,6 +1,6 @@
-#include "textdisplay.h"
-#include "characters.h"
-#include "players.h"
+#include "../include/textdisplay.hpp"
+#include "../include/characters.hpp"
+#include "../include/players.hpp"
 #include <string>
 #include <iostream>
 using namespace std;

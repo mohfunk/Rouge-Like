@@ -1,5 +1,5 @@
-#ifndef CHARACTERS_H
-#define CHARACTERS_H
+#ifndef CHARACTERS_HPP
+#define CHARACTERS_HPP
 #include <string>
 //class Floor;
 class Character{

@@ -1,6 +1,6 @@
-#ifndef PLAYERS_H
-#define PLAYERS_H
-#include "characters.h"
+#ifndef PLAYERS_HPP
+#define PLAYERS_HPP
+#include "characters.hpp"
 #include <string>
 
 //class Floor;

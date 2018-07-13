@@ -1,4 +1,4 @@
-#include"gold.h"
+#include"../include/gold.hpp"
 #include<string>
 using namespace std;
 
