@@ -40,14 +40,13 @@ void Controller::notify(int row, int col, string input, string file) {
     else{
         floor->setAction("Invalid movement. A wall, monster, or potion blocks your path.");
         floor->printFloor();
-    } // else
-} // notify
+    } 
+} 
 
-
-// play
-void Controller::play(string file) {			// main game loop.
+// main game loop.
+void Controller::play(string file) {	
     char p;
-    TextDisplay temp;				// just to print the empty floor at the begining.
+    TextDisplay temp; // just print an empty floor. 
     while(true){
         temp.print();
         cout << "Welcome to CC3k." << endl;
@@ -88,7 +87,6 @@ void Controller::play(string file) {			// main game loop.
             this->player = new Troll; 
             break;
         }
-        // quit and restart commands
         else if (p == 'q'){
             cout << "Quitting game." << endl;
             return;
@@ -96,14 +94,14 @@ void Controller::play(string file) {			// main game loop.
         else if (p == 'r'){
             cout << "Restarting game." << endl;
         }
-        else{ // handles bad input
+        else{ 
             cout << "Unfortunately, " << p << " is not a playable character." << endl;
             cout << "Please try again" << endl;
-        } // else
-    } // while
+        } 
+    } 
+
     string input;
     delete floor; 	// if a floor exists, delete it.
-    // initilazing the floor and setting it up
     this->floor = new Floor(*this->player, *this->game, file);
     this->floor->setAction("Player has spawned.");
     this->floor->printFloor();
@@ -332,14 +330,9 @@ void Controller::play(string file) {			// main game loop.
 
 // isEnemy
 bool Controller::isEnemy(int r, int c){
-    // returns true is the entity at r,c is an enemy type.
-    if(floor->getCell(r,c) == 'H'){ return true;}
-    else if(floor->getCell(r,c) == 'D'){ return true;}
-    else if(floor->getCell(r,c) == 'M'){ return true;}
-    else if(floor->getCell(r,c) == 'L'){ return true;}
-    else if(floor->getCell(r,c) == 'O'){ return true;}
-    else if(floor->getCell(r,c) == 'W'){ return true;}
-    else if(floor->getCell(r,c) == 'E'){ return true;}
-    else{ return false; }
+    // returns true if the entity at r,c is an enemy type.
+    char ent = floor->getCell(r,c);
+    if(ent == 'H' || ent == 'D' || ent == 'M' || ent == 'L' || ent == 'O' || ent == 'W' || ent == 'E') return true;
+    else return false;
 } // isEnemy
 

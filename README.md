@@ -26,6 +26,7 @@ $ ./rouge # run the game
 #### Actions
 ```bash
     u <dir> - use item on <dir>
+    a <dir> - attack entity on <dir>
 ```
 
 #### Other
