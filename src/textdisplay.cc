@@ -1,8 +1,9 @@
-#include "../include/textdisplay.hpp"
-#include "../include/characters.hpp"
-#include "../include/players.hpp"
 #include <string>
 #include <iostream>
+
+#include "textdisplay.hpp"
+#include "characters.hpp"
+#include "players.hpp"
 using namespace std;
 
 

@@ -1,6 +1,6 @@
-#include"../include/potionstrategy.hpp"
-#include"../include/potion.hpp"
-#include"../include/players.hpp"
+#include"potionstrategy.hpp"
+#include"potion.hpp"
+#include"players.hpp"
 #include<string>
 using namespace std;
 

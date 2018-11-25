@@ -1,7 +1,7 @@
-#include "../include/game.hpp"
 #include <math.h>
 #include <cstdlib>
-#include "../include/characters.hpp"
+#include "game.hpp"
+#include "characters.hpp"
 
 
 // ctor

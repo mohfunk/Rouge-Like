@@ -1,4 +1,4 @@
-#include "../include/players.hpp"
+#include "players.hpp"
 #include <climits>
 using namespace std;
 

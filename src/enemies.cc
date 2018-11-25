@@ -1,5 +1,5 @@
-#include"../include/characters.hpp"
-#include"../include/enemies.hpp"
+#include"characters.hpp"
+#include"enemies.hpp"
 #include <string>
 #include <math.h>
 using namespace std;

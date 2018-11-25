@@ -1,14 +1,14 @@
-#include"../include/floor.hpp"
-#include"../include/characters.hpp"
-#include"../include/players.hpp"
 #include <iostream>
 #include <string>
 #include <cstdlib>
-#include"../include/game.hpp"
-#include"../include/potion.hpp"
 #include <sstream>
 #include <fstream>
-#include"../include/enemies.hpp"
+#include"floor.hpp"
+#include"characters.hpp"
+#include"players.hpp"
+#include"game.hpp"
+#include"potion.hpp"
+#include"enemies.hpp"
 using namespace std;
 // checkHelp
 void Floor::checkHelp(int row,int col){

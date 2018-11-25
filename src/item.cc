@@ -1,4 +1,4 @@
-#include"../include/item.hpp"
+#include"item.hpp"
 using namespace std;
 // ctor
 Item::Item(): row(0), col(0){}

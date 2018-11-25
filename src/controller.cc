@@ -1,11 +1,11 @@
 #include<string>
 #include<iostream>
 
-#include"../include/controller.hpp"
-#include"../include/game.hpp"
-#include"../include/players.hpp"
-#include"../include/characters.hpp"
-#include"../include/floor.hpp"
+#include"controller.hpp"
+#include"game.hpp"
+#include"players.hpp"
+#include"characters.hpp"
+#include"floor.hpp"
 
 using namespace std;
 

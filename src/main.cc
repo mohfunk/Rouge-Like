@@ -1,9 +1,9 @@
-#include "../include/floor.hpp"
-#include "../include/characters.hpp"
-#include "../include/players.hpp"
-#include "../include/controller.hpp"
 #include <iostream>
-using namespace std;
+
+#include "floor.hpp"
+#include "characters.hpp"
+#include "players.hpp"
+#include "controller.hpp"
 
 int main(int argc, char *argv[]){
     Controller c; // create a controller
@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
         c.play();
     }
     else{
-        string s;
+        std::string s;
         s = argv[1];
         c.play(s); // calls play with the file s, for inputing from a file
     }
